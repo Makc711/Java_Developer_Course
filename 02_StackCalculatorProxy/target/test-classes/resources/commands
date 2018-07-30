@@ -1,0 +1,29 @@
+DEFINE a 1
+DEFINE b 4
+DEFINE c 2
+PUSH -1
+PUSH b
+*
+PUSH b
+PUSH b
+*
+PUSH 4
+PUSH a
+*
+PUSH c
+*
+-
+SQRT
++
+PUSH 2
+PUSH a
+*
+/
+# Answer:
+PRINT
+EXP
+# Exponent of answer:
+PRINT
+LOG
+# Logarithm of exponent:
+PRINT
